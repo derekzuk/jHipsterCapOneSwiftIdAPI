@@ -71,7 +71,10 @@ public class WebHookResource {
             .toUri();
 
         WebHookRegistration webHookRegistration = new WebHookRegistration();
-        webHookRegistration.setCallbackUrl("http://73.148.65.44:3002/api/callback-url");
+        // The callback URL is currently hard-coded, but it could be parameterized:
+        webHookRegistration.setCallbackUrl("http://yourpublicipaddress:yourforwardedport/api/callback-url");
+
+
         webHookRegistration.setEventType("EnhancedAuthentication");
 
         HttpHeaders headers = new HttpHeaders();
