@@ -1,0 +1,12 @@
+jhipsterswiftid-mysql:
+  container_name: jhipsterswiftid-mysql
+  image: mysql:5.7.9
+  # volumes:
+  #   - ~/volumes/jhipster/jhipsterswiftid/mysql/:/var/lib/mysql/
+  environment:
+    - MYSQL_USER=root
+    - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+    - MYSQL_DATABASE=jhipsterswiftid
+  ports:
+    - "3306:3306"
+  command: mysqld --lower_case_table_names=1
