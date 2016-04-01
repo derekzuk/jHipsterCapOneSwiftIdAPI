@@ -14,6 +14,7 @@ https://developer.capitalone.com/
 
 For more information, see the Ippon Technologies USA blog post regarding this application.
 
+# About jHipster
 
 This application was generated using JHipster, you can find documentation and help at [https://jhipster.github.io](https://jhipster.github.io).
 
