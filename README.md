@@ -2,7 +2,8 @@
 
 This application integrates the webhook API functionality of the Capital One SwiftID API by establishing a one-click callback URL registration.
 
-STEPS TO USE:
+See the following steps to use this application:
+
 1. Create your application in the Capital One Dev Exchange portal. Register it as a SwiftID application.
 https://developer.capitalone.com/
 
